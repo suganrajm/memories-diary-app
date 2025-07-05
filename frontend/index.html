@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Memories Diary</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌈 Memories Diary 📖</h1>
+    <form id="memoryForm">
+      <input type="text" placeholder="Your Name" id="name" required />
+      <input type="text" placeholder="Place" id="place" required />
+      <input type="date" id="date" required />
+      <textarea placeholder="Your Memory..." id="details" required></textarea>
+      <button type="submit">Save Memory</button>
+    </form>
+    <h2>📅 All Memories</h2>
+    <div id="memoriesList"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
